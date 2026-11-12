@@ -1,0 +1,50 @@
+# 1. Окружения (Virtual Environments)
+.venv/
+venv/
+env/
+.env/
+.conda/
+*.conda
+
+# 2. Кэш и скомпилированные файлы Python / Jupyter
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+*.egg-info/
+dist/
+build/
+
+# 3. Секреты и ключи доступа
+.env
+*.pem
+*.key
+credentials.json
+secrets/
+
+# 4. Временные файлы, данные и артефакты моделей
+data/
+models/
+tmp/
+temp/
+*.csv
+*.parquet
+*.zip
+*.pkl
+*.joblib
+*.h5
+*.pt
+*.onnx
+.DS_Store
+Thumbs.db
+
+# 5. IDE
+.idea/
+.vscode/
+*.iml
+
+# 6. Docs
+*.pdf
